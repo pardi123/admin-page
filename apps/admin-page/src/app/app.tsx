@@ -1,15 +1,13 @@
-import styled from '@emotion/styled';
-import NxWelcome from './nx-welcome';
-
-const StyledApp = styled.div`
-  // Your style here
-`;
-
+import { ChakraProvider } from '@chakra-ui/react';
+import { AdminPageMain } from '@admin-page/admin-page/main';
+import { Route, Routes } from 'react-router';
 export function App() {
   return (
-    <StyledApp>
-      <NxWelcome title="admin-page" />
-    </StyledApp>
+    <ChakraProvider>
+      <Routes>
+        <Route path="/*" element={<AdminPageMain />} />
+      </Routes>
+    </ChakraProvider>
   );
 }
 

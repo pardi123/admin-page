@@ -3,6 +3,15 @@
   "version": 2,
   "projects": {
     "admin-page": "apps/admin-page",
-    "admin-page-e2e": "apps/admin-page-e2e"
+    "admin-page-e2e": "apps/admin-page-e2e",
+    "admin-page-home": "libs/admin-page/home",
+    "admin-page-main": "libs/admin-page/main",
+    "admin-page-shared-context": "libs/admin-page/shared/context",
+    "admin-page-shared-data-access": "libs/admin-page/shared/data-access",
+    "admin-page-shared-hooks": "libs/admin-page/shared/hooks",
+    "admin-page-shared-layout": "libs/admin-page/shared/layout",
+    "admin-page-shared-routes": "libs/admin-page/shared/routes",
+    "admin-page-shared-ui": "libs/admin-page/shared/ui",
+    "admin-page-shared-utils": "libs/admin-page/shared/utils"
   }
 }

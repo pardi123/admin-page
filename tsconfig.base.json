@@ -14,7 +14,31 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@admin-page/admin-page/home": ["libs/admin-page/home/src/index.ts"],
+      "@admin-page/admin-page/main": ["libs/admin-page/main/src/index.ts"],
+      "@admin-page/admin-page/shared/context": [
+        "libs/admin-page/shared/context/src/index.ts"
+      ],
+      "@admin-page/admin-page/shared/data-access": [
+        "libs/admin-page/shared/data-access/src/index.ts"
+      ],
+      "@admin-page/admin-page/shared/hooks": [
+        "libs/admin-page/shared/hooks/src/index.ts"
+      ],
+      "@admin-page/admin-page/shared/layout": [
+        "libs/admin-page/shared/layout/src/index.ts"
+      ],
+      "@admin-page/admin-page/shared/routes": [
+        "libs/admin-page/shared/routes/src/index.ts"
+      ],
+      "@admin-page/admin-page/shared/ui": [
+        "libs/admin-page/shared/ui/src/index.ts"
+      ],
+      "@admin-page/admin-page/shared/utils": [
+        "libs/admin-page/shared/utils/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
